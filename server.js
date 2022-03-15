@@ -31,8 +31,8 @@ app.use("/api/champions", championRouter);
 
 // Handle Production
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(__dirname + "/public"));
-  app.get(/.*/, (req, res) => res.sendFile(__dirname + "/public/index.html"));
+  app.use(express.static("/public"));
+  app.get(/.*/, (req, res) => res.sendFile("/public/index.html"));
 }
 
 const port = 8080;
