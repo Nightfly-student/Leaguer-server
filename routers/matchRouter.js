@@ -10,7 +10,7 @@ matchRouter.get(
     var data = {};
     await axios
       .get(
-        `https://${req.query.region}.api.riotgames.com/lol/match/v5/matches/by-puuid/${req.query.puuid}/ids?start=0&count=${req.query.limit}`,
+        `https://${req.query.region}.api.riotgames.com/lol/match/v5/matches/by-puuid/${req.query.puuid}/ids?start=${req.query.start}&count=${req.query.limit}`,
         {
           headers: {
             "Accept-Charset":
