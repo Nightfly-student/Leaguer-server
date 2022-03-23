@@ -7,9 +7,9 @@ GITHUB CLIENT: https://github.com/Nightfly-student/Leaguer-client <br />
 MONGODB Connection: mongodb+srv://project:project@cluster1.5qnah.mongodb.net/leaguer <br />
 
 <br/>
+Download Packages via npm i<br/>
 Starten van server via: npm start<br/>
 <br/>
-Om de riot apis te laten runnen maak een RIOT_API=RGAPI-dbbcf3be-6424-49a2-aec8-48d39c974f1f aan in een .env file (root)
 <br/>
 <br/>
 Gemaakt door:<br />
